@@ -5,7 +5,6 @@ export default class Posts extends React.Component {
     return (
       <div>
         <p>Lista de los posts</p>
-        { this.props.children }
       </div>
     )
   }

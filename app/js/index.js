@@ -27,7 +27,7 @@ render((
       <IndexRoute component={Home} />
       <Route path="about" component={About}/>
       <Route path="posts" component={Posts}>
-        <Route path=":id" component={Post}/>
+        <Route path="/post/:id" component={Post}/>
       </Route>
     </Route>
   </Router>
